@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kelvin-iot-coursera
+  host: kelvin-iot-coursera
+  disk_quota: 1024M
+  services:
+  - kelvin-iot-coursera-cloudantNoSQLDB
+  - kelvin-iot-coursera-iotf-service
